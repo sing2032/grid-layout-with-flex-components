@@ -11,6 +11,7 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: ;
   }
   
   .emoji h2 {
@@ -24,9 +25,14 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    margin-top: auto;
+    
+    /* margin-top: auto; */
   }
   
+  .emoji p{
+    flex-grow: 1;
+  }
+
   .icon {
     font-size: 4rem;
     order: -1;
